@@ -22,10 +22,18 @@ body{
     padding: 15px 40px;
 }
 .values{
-    border: none;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    
 }
 
 footer{
     color: rgb(105, 243, 197);
     }
-}
+
+input{
+        border: none;
+        background-color: rgb(231, 202, 231);
+        padding: 30px;
+    }
